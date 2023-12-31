@@ -13,7 +13,7 @@
 
 @interface WebPFrame : NSObject
 
-@property (nonatomic, strong) UIImage                  *image;
+@property (nonatomic, strong) UIImage                   image;
 @property (nonatomic, assign) CGFloat                  duration;
 @property (nonatomic, assign) WebPData                 webPData;
 @property (nonatomic, assign) CGFloat                  height;
@@ -25,7 +25,7 @@
 
 @interface WebPImage : UIImage
 
-@property (nonatomic, copy) NSData                              *imageData;
+@property (nonatomic, copy) NSData                               imageData;
 @property (nonatomic, strong) WebPFrame                         *curDisplayFrame;
 @property (nonatomic, strong) UIImage                           *curDisplayImage;
 @property (nonatomic, assign) NSInteger                         curDisplayIndex;
@@ -40,3 +40,4 @@
 
 @end
 
+ 
